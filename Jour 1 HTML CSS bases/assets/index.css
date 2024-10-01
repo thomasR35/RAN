@@ -1,0 +1,31 @@
+.lorem-first-words {
+    color: green;
+}
+.p-important {
+    font-weight: bold;
+}
+.p-emphase{
+    font-style: italic;
+}
+.p-urgent{
+    text-decoration : underline;
+}
+.p-miseenavant{
+    font-size: 32px;
+    font-weight: bold;
+}
+.p-serif {
+    font-family: serif;
+}
+.p-sans-serif{
+    font-family: sans-serif;
+}
+.p-cursive{
+    font-family: cursive;
+}
+.p-monospace{
+    font-family: monospace;
+}
+.p-times{
+    font-family: Times New Roman, serif;
+}
