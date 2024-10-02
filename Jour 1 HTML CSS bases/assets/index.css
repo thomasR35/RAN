@@ -29,3 +29,18 @@
 .p-times{
     font-family: Times New Roman, serif;
 }
+.highlight{ 
+    background-color: green;
+}
+.p-text-right{
+    text-align: right;
+}
+.p-text-left{
+    text-align: left;
+}    
+.p-text-center{
+    text-align:center;
+}
+.p-text-justify{
+    text-align:justify;
+}
