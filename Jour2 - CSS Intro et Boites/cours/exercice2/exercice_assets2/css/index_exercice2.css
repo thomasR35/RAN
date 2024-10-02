@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.box {
+    margin: 30px;
+    padding: 20px;
+}
+
+.red-box {
+  background-color: red;
+  border: 1px solid black;
+}
+.yellow-box {
+  background-color: yellow;
+  border: 1px solid black;
+}
+.green-box {
+  background-color: green;
+  border: 1px solid black;
+}
