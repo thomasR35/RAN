@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-size: 4px;/* Aucun effet */
+}
+
+.box1 {
+    border: 2px solid black;
+    background-color: fuchsia;
+    font-size: 0.85rem;
+    padding: 1rem;
+}
+
+.box2 {
+    border: 2px solid black;
+    background-color: yellow;
+    font-size: 0.5rem;
+    padding: 1rem;
+}
