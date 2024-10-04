@@ -1,0 +1,22 @@
+/* Commun */
+body {
+    margin: 16px;
+}
+
+.box {
+     background-color: wheat;
+     color: white;
+     text-align: center;
+     border: 2px solid orange;
+    color: black;
+    
+}
+
+.flex {
+     display: flex;
+     justify-content: space-evenly; 
+     align-items: stretch; 
+     height: 50vh; 
+     background-color: salmon;
+     flex-direction: row;
+}

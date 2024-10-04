@@ -1,0 +1,53 @@
+body {
+    margin: 16px;
+}
+.grid {
+    display: grid;
+    height: 50vh;
+    gap: 16px;
+}
+.box {
+    border: 2px solid orange;
+    background-color: wheat;
+}
+
+/* Exercice 1 */
+.grid {
+    grid-template-rows: 50px 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+
+/* Exercice 2 */
+.grid {
+    grid-template-rows: 50px 1fr 3fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr 5fr;
+    /* Première ligne et première colonne à 50px, le reste est fractionné */
+}
+
+/* Exercice 3 */
+.grid {
+    grid-template-rows: 3fr 1fr 1fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr 7fr;
+    /* Fractionnement */
+}
+
+/* Exercice 4 */
+.grid {
+    grid-template-rows: 50% 1fr 1fr 2fr;
+    grid-template-columns: 33% 1fr 1fr 33%;
+    /* Première ligne à 50%, Dernière colonne à 33%, le reste est fractionné */
+}
+
+/* Exercice 5 */
+.grid {
+    grid-template-rows: 50% 1fr 2fr;
+    grid-template-columns: 33% 1fr 2fr 3fr 2fr 1fr;
+    /* Première ligne à 50%, Première colonne à 33%, le reste est fractionné */
+}
+
+/* Exercice 6 */
+.grid {
+    grid-template-rows: 50% 1fr 1fr 1fr 2fr 2fr;
+    grid-template-columns: 33% 2fr 1fr;
+    /* Première ligne à 50%, Première colonne à 33%, le reste est fractionné */
+}

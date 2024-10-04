@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%
+}
+body {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.box {
+     background-color: wheat;
+     border: 2px solid orange;
+     width: 20%;
+}
+
+.flex {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 1em;
+     background-color: red;
+     justify-content: center;
+     align-items: center;
+     height: 75vh;
+}

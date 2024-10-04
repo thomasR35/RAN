@@ -1,0 +1,55 @@
+body {
+    margin: 16px;
+}
+.grid {
+    display: grid;
+    gap: 16px;
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(4, 100px);
+}
+
+.box {
+    border: 2px solid orange;
+    background-color: wheat;
+}
+
+/* Exemple 1 : les éléments sont positionnés entre les bordures spécifiées */
+.box1 {
+    background-color: navy;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* Exemple 2 : fusion de deux colonnes */
+.box1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Exemple 3 : fusion de deux lignes */
+.box1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/* Exemple 4 : fusion de deux lignes et deux colonnes */
+.box1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Exemple 5 : fusion de n lignes et n colonnes */
+.box1 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

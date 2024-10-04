@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Commun */
+body {
+    margin: 16px;
+}
+
+.box {
+    border: 2px solid orange;
+    background-color: wheat;
+    width: 25%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    gap: 50px;
+    height: 75vh;
+    flex-wrap: wrap;
+}
+
+/* Disposition verticale */
+.flex {
+    justify-content: center;
+}
+
+/* Disposition horizontale */
+.flex {
+    align-items: flex-end;
+}

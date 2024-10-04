@@ -1,0 +1,35 @@
+/* Commun */
+
+body {
+    margin: 16px;
+}
+.grid {
+    display: grid;
+    gap: 16px;
+}
+.box {
+    border: 2px solid orange;
+    background-color: wheat;
+}
+
+/* Exemple 1 : une ligne, une colonne */
+.grid {
+    grid-template-rows: 50px;
+    grid-template-columns: 100px;
+}
+
+/* Exemple 2 : deux lignes, deux colonnes */
+.grid {
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 100px 100px;
+}
+
+.grid {
+    grid-template-rows: 50px 50px 1fr;
+    grid-template-columns: 100px 100px 1fr;
+}
+
+.grid {
+    grid-template-rows: 50px 50px 2fr 1fr;
+    grid-template-columns: 100px 100px 2fr 1fr;
+}
