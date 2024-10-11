@@ -1,78 +1,78 @@
 /*********************** TOOLS ************************/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;/* Passer de 16px à 10px */
+  font-size: 62.5%; /* Passer de 16px à 10px */
 }
 
 body {
-    font-size: 16px;/* On remet à 16px qui est la valeur par défaut */
-    margin: 0;
+  font-size: 16px; /* On remet à 16px qui est la valeur par défaut */
+  margin: 0;
 }
 
 /*********************** HEADER ***********************/
 .header {
-    text-align: center;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bar menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
 }
 
 .nav-bar menu li {
-    display: inline-block;
-    padding: 1em;
+  display: inline-block;
+  padding: 1em;
 }
 
 .nav-bar .active {
-    color: red;
+  color: red;
 }
 
 /*********************** CONTENT ***********************/
 .content h2 {
-    padding: 1em;
-    margin: 0;
-    border-bottom: 1px solid grey;
-    text-align: left;
+  padding: 1em;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  text-align: left;
 }
 
 .content .punchline {
-    font-weight: bold;
-    color: grey;
+  font-weight: bold;
+  color: grey;
 }
 
 .content article {
-    display: inline-block;
-    border: 1px solid black;
-    width: 40%;
-    margin: 1em;
-    text-align: left;
+  display: inline-block;
+  border: 1px solid black;
+  width: 40%;
+  margin: 1em;
+  text-align: left;
 }
 
 .content article h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .content article p {
-    margin: 0;
+  margin: 0;
 }
 
 .content .actualites {
-    text-align: center;
+  text-align: center;
 }
 
 /*********************** FOOTER ***********************/
 .footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    font-size: 2.5rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5rem;
 }
