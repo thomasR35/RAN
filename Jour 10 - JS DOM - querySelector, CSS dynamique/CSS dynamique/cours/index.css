@@ -1,0 +1,6 @@
+.red-square {
+  width: 3em;
+  height: 3em;
+  border: 1px solid black;
+  background-color: red;
+}
