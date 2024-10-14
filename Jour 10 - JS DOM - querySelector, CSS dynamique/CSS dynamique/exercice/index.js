@@ -8,12 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
   redSquareDOM.style.top = "100px";
   // Exercice 3 : Mettre le symbole 😊 dans le carré
   redSquareDOM.textContent = "😊";
-  redSquareDOM.style.backgroundPosition = "relative";
-  redSquareDOM.style.color = "white";
   // Exercice 4 : Changer la taille du carré en 300px de largeur et 300px de haut
   redSquareDOM.style.width = "300px";
   redSquareDOM.style.height = "300px";
   // Exercice 5 : Ajouter en image de fond, l'image fournie
   redSquareDOM.style.backgroundImage = "url('cat.jpg')";
-  redSquareDOM.style.backgroundPosition = "absolute";
 });
