@@ -4,7 +4,8 @@
 // 2. Pour chaque bouton du menu, lorsque l'utilisateur clique dessus,
 // afficher la popup correspondante (qui a la même position dans la liste)
 // en utilisant la classe appropriée
-document.addEventListener("DOMContentLoaded", function () {
+
+/*document.addEventListener("DOMContentLoaded", function () {
   let buttons = document.querySelectorAll(".js-menu button");
   let popups = document.querySelectorAll(".js-popup");
   let closeButtons = document.querySelectorAll(".close-button");
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       hidePopup(j);
     });
   }
-});
+});*/
 
 document.addEventListener("DOMContentLoaded", function () {
   let buttons = document.querySelectorAll(".js-menu button");
