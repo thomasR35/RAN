@@ -199,3 +199,6 @@ div.my-account-panel .picture {
 .invisible {
   visibility: hidden;
 }
+.menuvisible {
+  display: none;
+}
