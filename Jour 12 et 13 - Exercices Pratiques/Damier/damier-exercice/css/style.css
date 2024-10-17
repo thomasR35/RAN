@@ -39,23 +39,23 @@
 }
 
 button.damier {
-  background-image: url('../img/damier.svg');
+  background-image: url("../img/damier.svg");
   background-size: contain;
 }
 
 button.disco {
-  background-image: url('../img/disco.svg');
+  background-image: url("../img/disco.svg");
   background-size: contain;
 }
 
 button.labyrinth {
-  background-image: url('../img/labyrinth.svg');
+  background-image: url("../img/labyrinth.svg");
   background-size: cover;
 }
 
 .bobby {
   visibility: hidden;
-  background-image: url('../img/wat.jpg');
+  background-image: url("../img/wat.jpg");
   background-size: cover;
   width: 3rem;
   height: 3rem;
@@ -67,7 +67,7 @@ button.labyrinth {
 }
 
 .cat {
-  background-image: url('../img/cat.png');
+  background-image: url("../img/cat.png");
   background-size: contain;
   width: 3rem;
   height: 3rem;
@@ -85,23 +85,23 @@ button.labyrinth {
 }
 
 .disco-color1 {
-  background-color: #CC0000;
+  background-color: #cc0000;
 }
 
 .disco-color2 {
-  background-color: #0099FF;
+  background-color: #0099ff;
 }
 
 .disco-color3 {
-  background-color: #FFCC00;
+  background-color: #ffcc00;
 }
 
 .disco-color4 {
-  background-color: #66FF33;
+  background-color: #66ff33;
 }
 
 .disco-color5 {
-  background-color: #CC0099;
+  background-color: #cc0099;
 }
 
 .visible {
@@ -116,18 +116,18 @@ button.labyrinth {
   position: absolute;
   top: 0.8rem;
   left: 0.4rem;
-  content: 'pull';
+  content: "pull";
 }
 
 .push {
   position: relative;
-  background-color: #FFCC00;
+  background-color: #ffcc00;
 }
 .push::after {
   position: absolute;
   top: 0.8rem;
   left: 0.2rem;
-  content: 'push';
+  content: "push";
 }
 
 .boom {
@@ -138,6 +138,6 @@ button.labyrinth {
   position: absolute;
   top: 0.9rem;
   left: 0.1rem;
-  content: 'boom';
+  content: "boom";
   font-size: 0.9rem;
 }
